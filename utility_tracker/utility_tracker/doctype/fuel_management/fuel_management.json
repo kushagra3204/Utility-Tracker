@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-22 10:16:26.442437",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "fuel",
+  "unit",
+  "employee_code",
+  "location",
+  "month",
+  "column_break_saqf",
+  "fuel_type",
+  "gas_type",
+  "fuel_gross",
+  "company_name",
+  "consumption_qty"
+ ],
+ "fields": [
+  {
+   "fieldname": "fuel",
+   "fieldtype": "Select",
+   "label": "Fuel",
+   "options": "Employee Fuel\nHSD Consumption\nGas Consumption"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Link",
+   "label": "Unit",
+   "options": "Master Unit"
+  },
+  {
+   "fieldname": "employee_code",
+   "fieldtype": "Link",
+   "label": "Employee Code",
+   "options": "Master Employee Data"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Master Company Location"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Date",
+   "label": "Month"
+  },
+  {
+   "fieldname": "column_break_saqf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fuel_type",
+   "fieldtype": "Link",
+   "label": "Fuel Type",
+   "options": "Master Fuel Type"
+  },
+  {
+   "fieldname": "gas_type",
+   "fieldtype": "Link",
+   "label": "Gas Type",
+   "options": "Master Gas Type"
+  },
+  {
+   "fieldname": "fuel_gross",
+   "fieldtype": "Float",
+   "label": "Fuel Gross"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Link",
+   "label": "Company Name",
+   "options": "Master Company Name"
+  },
+  {
+   "fieldname": "consumption_qty",
+   "fieldtype": "Float",
+   "label": "Consumption Qty"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-22 15:56:17.642878",
+ "modified_by": "Administrator",
+ "module": "Utility Tracker",
+ "name": "Fuel Management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

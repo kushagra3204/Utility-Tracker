@@ -1,0 +1,128 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-07-16 14:27:55.325494",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "electricity",
+  "state",
+  "company",
+  "property_type",
+  "address",
+  "units",
+  "column_break_yjmd",
+  "country",
+  "city",
+  "month",
+  "company_location",
+  "landlord",
+  "agreement_status",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "electricity",
+   "fieldtype": "Select",
+   "label": "Electricity",
+   "options": "Meril Corporate\nOther Locations\nForeign Subsidiaries"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Link",
+   "label": "State",
+   "options": "Master State"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Master Company Name"
+  },
+  {
+   "fieldname": "property_type",
+   "fieldtype": "Link",
+   "label": "Property Type",
+   "options": "Master Property Type"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "units",
+   "fieldtype": "Link",
+   "label": "Units",
+   "options": "Master Unit"
+  },
+  {
+   "fieldname": "column_break_yjmd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Master Country"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Link",
+   "label": "City",
+   "options": "Master City"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Date",
+   "label": "Month"
+  },
+  {
+   "fieldname": "company_location",
+   "fieldtype": "Link",
+   "label": "Company Location",
+   "options": "Master Company Location"
+  },
+  {
+   "fieldname": "landlord",
+   "fieldtype": "Data",
+   "label": "Landlord"
+  },
+  {
+   "fieldname": "agreement_status",
+   "fieldtype": "Data",
+   "label": "Agreement Status"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Data",
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-07-22 15:56:05.349989",
+ "modified_by": "Administrator",
+ "module": "Utility Tracker",
+ "name": "Electricity Management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
