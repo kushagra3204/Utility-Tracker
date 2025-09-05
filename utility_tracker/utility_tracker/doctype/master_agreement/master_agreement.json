@@ -6,12 +6,13 @@
  "engine": "InnoDB",
  "field_order": [
   "company_name",
-  "state",
   "city",
-  "property_type",
   "landlord",
+  "agreement_status",
+  "column_break_lviq",
+  "state",
   "address",
-  "agreement_status"
+  "property_type"
  ],
  "fields": [
   {
@@ -52,12 +53,16 @@
    "fieldname": "agreement_status",
    "fieldtype": "Data",
    "label": "Agreement Status"
+  },
+  {
+   "fieldname": "column_break_lviq",
+   "fieldtype": "Column Break"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-07-22 15:56:56.778011",
+ "modified": "2025-08-02 10:37:17.749484",
  "modified_by": "Administrator",
  "module": "Utility Tracker",
  "name": "Master Agreement",

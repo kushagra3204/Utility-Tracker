@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-01 14:45:58.131332",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "country",
+  "origin_city",
+  "distance_travelled",
+  "mode_of_transportation",
+  "column_break_hjzy",
+  "company",
+  "destination_city",
+  "no_of_trips"
+ ],
+ "fields": [
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Master Country"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Master Company Name"
+  },
+  {
+   "fieldname": "origin_city",
+   "fieldtype": "Link",
+   "label": "Origin City",
+   "options": "Master City"
+  },
+  {
+   "fieldname": "destination_city",
+   "fieldtype": "Link",
+   "label": "Destination City",
+   "options": "Master City"
+  },
+  {
+   "fieldname": "distance_travelled",
+   "fieldtype": "Float",
+   "label": "Distance Travelled"
+  },
+  {
+   "fieldname": "no_of_trips",
+   "fieldtype": "Int",
+   "label": "No of Trips"
+  },
+  {
+   "fieldname": "mode_of_transportation",
+   "fieldtype": "Link",
+   "label": "Mode of Transportation",
+   "options": "Master Transportation Mode"
+  },
+  {
+   "fieldname": "column_break_hjzy",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-01 14:59:05.745260",
+ "modified_by": "Administrator",
+ "module": "Utility Tracker",
+ "name": "Travel Management",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
